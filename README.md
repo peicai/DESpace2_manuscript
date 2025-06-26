@@ -9,4 +9,4 @@ The *./Analyses* folder contains the following subdirectories:
 
 Within each simulation subfolder, scripts are organized to first generate the simulated datasets, then apply clustering methods (Banksy or BayesSpace), and finally run all methods. `highly_abundant` or `lowly_abundant` refer to scenarios in which randomly selected spatial domain(s) show higher or lower abundance relative to the rest of the tissue.
 
-The *./Figures* folder contains the code used to generate all figures included in the manuscript and Supplementary Information. Input data are available on Zenodo (DOI: 10.5281/zenodo.15733408).
+The *./Figures* folder contains the code used to generate all figures included in the manuscript and Supplementary Information. Input data are available on [Zenodo](https://zenodo.org/records/15744023).
