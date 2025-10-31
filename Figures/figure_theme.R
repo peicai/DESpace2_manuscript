@@ -144,3 +144,8 @@ annotation_plot <- function(sce_one,cluster = "BANKSY_snn_res0.1_smooth",
   print(p)
 }
 
+revsqrt_trans <- scales::trans_new(
+  name = "revsqrt",
+  transform = function(x) -sqrt(1 - x),
+  inverse = function(x) 1 - x^2
+)
